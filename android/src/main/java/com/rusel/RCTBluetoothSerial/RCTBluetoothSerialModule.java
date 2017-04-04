@@ -28,7 +28,7 @@ import com.facebook.react.modules.core.DeviceEventManagerModule;
 public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule {
 
     private BluetoothAdapter bluetoothAdapter;
-    private RCTBluetoothSerialService bluetoothSerialService;
+    private static RCTBluetoothSerialService bluetoothSerialService;
     private final ReactApplicationContext _reactContext;
 
     // Debugging
